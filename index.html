@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
+    <body>
+        <h1 id="title" style="text-align:center;">Sample Survey Form</h1>
+        <script type="text/javascript" src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <p id="description" style="text-align:center;font-size:medium;">Thank you for taking the time to help us improve the platform</p>
+    <div id="beforeform">
+        <form id="survey-form">
+            <p></p>
+            <label id="name-label">Name:</label><br>
+            <input  type="text" name="name" id="name"  placeholder="Enter your name" required><br><br>
+            <label id="email-label" >Email:</label><br>
+            <input  type="email" name="email" id="email" placeholder="Enter your E-mail id" required><br><br>
+            <label id="number-label">Age:</label><br>
+            <input  type="number" name="number" id="number" min="12" max="40" placeholder="Age" required><br><br>
+            <label>Which option describes you current role?</label><br>
+            <select id="dropdown">
+                 <option >Select current role</option>
+                 <option>Student</option>
+                 <option>Full Time Job</option>
+                 <option>Prefer not to say</option>
+                 <option>Other</option>
+            </select><br>
+            <p>Please select your gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+            <p>Transportation Type:</p>
+
+
+
+
+
+
+
+
+
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label><br><br>
+
+            <label for="w3review">Any Comments or Suggestions:</label><br>
+            <textarea  rows="4" cols="50" name="comment" placeholder="Enter your comment here...">
+  
+            </textarea><br><br>
+            <input type="submit" id="submit" value="Submit">
+            
+            
+            
+            
+
+            
+
+
+
+
+        </form>
+    </div>
+    </body>
+</html>
